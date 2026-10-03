@@ -1,5 +1,8 @@
 # Changelog
 
+## 4.6.0 - 2026-10-03
+- Release: Brand Key only, built-in checkout address
+
 ## 4.5.0 - 2026-10-03
 - Optional Endpoint URL with secure default, HTTPS enforcement and Brand Key labels
 

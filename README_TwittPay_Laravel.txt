@@ -18,7 +18,6 @@
    1. Put your credentials in .env:
 
         TWITTPAY_API_KEY=your_api_key
-        TWITTPAY_BASE_URL=https://checkout.twittpay.com
         TWITTPAY_CURRENCY_RATE=120
 
       The Brand Key is in your gateway dashboard under Brands. The rate only

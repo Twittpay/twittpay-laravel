@@ -24,7 +24,6 @@ return [
      * .../api/payment/create still works. There is no default on purpose - put
      * your own gateway address in .env.
      */
-    'base_url' => env('TWITTPAY_BASE_URL', ''),
 
     /*
      * USD -> BDT multiplier. The gateway charges BDT only. Leave it alone if your

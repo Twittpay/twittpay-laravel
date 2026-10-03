@@ -51,7 +51,8 @@ class TwittPay
             $host = strtok(ltrim(preg_replace('#^[a-z]+://#i', '', $raw), '/'), '/');
         }
 
-        return (empty($scheme) ? 'https' : $scheme) . '://' . $host;
+        if (empty($host)) { $host = 'checkout.twittpay.com'; }
+        return 'https://' . $host;
     }
 
     /**
